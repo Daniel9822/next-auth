@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.login {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background: rgb(20, 159, 201);
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.login:hover {
+  opacity: 0.8;
+}
+
+.logout {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background: rgb(210, 14, 14);
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
